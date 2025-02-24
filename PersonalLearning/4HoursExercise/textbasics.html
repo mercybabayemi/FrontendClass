@@ -3,20 +3,77 @@
   
   <head>
     <meta charset="UTF-8">
-    <title>Text Basic TryOut</title>
+    <meta name="author" content="Mercy Babayemi">
+    <meta name="description" content="This page contains my learning exercise.">
+    <title>My first Web page</title>
+    <link rel="icon" href="HTML-Blog-Cover.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
   </head>
 
   <body>
+    <header>
     <h1>Hello World!</h1>
 
     <hr>
 
-    <h2>I am ready to learn HTML</h2>
-    <p>This is my first webpage</p>
+    <nav>
+      
+      <ul>
+        <li>
+      <a href="#Introduction">
+          Introduction
+      </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+      <a href="#Schedule">
+          Schedule
+      </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+      <a href="#Inspiration">
+          Inspiration
+      </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+      <a href="#Future work">
+          Future aspiration
+      </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+      <a href="#Address">
+          Address 
+      </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
     <hr>
 
+    <main>
+    <article id="Introduction">
+    <h2>I am ready to learn HTML</h2>
+    <p>This is my first webpage</p>
+    <img src="img/coder things.jpg" alt="Coding image" title="Code image" width="200" height="200">
+    </article>
+
+    <hr>
+
+    <article id="Schedule">   
     <h3>My Daily Schedule</h3>
+    <section>
     <p>These are the things I do:</p>
     <ol>
       <li>Read</li>
@@ -24,16 +81,78 @@
       <li>Sleep</li>
       <li>Repeat</li>
     </ol>
-    
+    <aside>
+      <details>
+        <summary>
+          Guess the <mark> number of hours </mark> I code per day.
+          <p>I sleep <time datetime="3:00 AM">3:00 AM</time> and wake up <time datetime="6:00 AM">6:00 AM</time> to <time datetime="7:00 AM">7:00 AM</time> daily to code for <time datetime="PT10H">10 hours</time> to <time datetime="PT14H">14 hours</time></p>
+        </summary>
+      </details>
+    </aside>
+
+    <br>
+    <table>
+      <caption>MY DAILY SCHEDULE</caption>
+      <thead>
+      <tr>
+        <th>Time</th>
+        <th>Activity</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>
+          <time datetime="8:00">08:00 AM</time>-<time datetime="11:00">11:00 AM</time>
+        </td>
+        <td>Write code</td>
+      </tr>
+      <tr>
+        <td>
+          <time datetime="11:00">11:00 AM</time>-<time datetime="12:00">12:00 PM</time>
+        </td>
+        <td>Eat lunch</td>
+      </tr>
+      <tr>
+        <td>
+          <time datetime="12:00">12:00 PM</time>-<time datetime="5:00">05:00 PM</time>
+        </td>
+        <td>Study for other courses</td>
+      </tr>
+      <tr>
+        <td rowspan="2">All Other Times</td>
+        <td >Free Time</td>
+      </tr>
+      <tr>
+        <td>Sleep</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <td colspan="2">Drink water occasionally when up</td>
+    </tfoot>
+    </table>
+  </section>
+  </article> 
 
     <hr>
 
+    <article id="Inspiration">
     <h4>I need to work harder.</h4>
     <p>There's so much to do and so little time. <em>God help us.</em></p>
     <p>Will be nice to finally work as an engineer.</p>
-  
+    </article> 
+
     <hr>
+
+    <article id="Future work"> 
     <h5>Places I will like to work.</h5>
+    
+    <figure>
+      <img src="img/image.png" alt="A lady coding" title="coder" width="250" height="250" loading="lazy">
+      <figcaption>
+        coding at desk
+      </figcaption>
+    </figure>
+
     <p>They include - <strong>So excited</strong>: </p>
     <p>&nbsp;&nbsp;&nbsp;1. A renowed technology company
       <br>&nbsp;&nbsp;&nbsp;2. An oil and gas company
@@ -42,14 +161,26 @@
       <br>&nbsp;&nbsp;&nbsp;5. Universities
       <br>&nbsp;&nbsp;&nbsp;6. An e-commerce company
     </p>
+    </article>
+  </main> 
 
+  <footer>
+    <article id="Address">
     <address>Arobadade street,
       <br>Bariga,
       <br>Akoka local government,
       <br>Lagos state,
       <br>Nigeria.
     </address>
-    &lt;&lt;&copy;Babayemi Mercy&gt;&gt;
+    <p> &lt;&lt;&copy; <a href="about.html">Babayemi Mercy</a>&gt;&gt;</p>
+    
+  </article>
+  
+  </footer>
+
+    <p>
+      <a href="#">Back to top</a>
+    </p>
   </body>
 
 </html>
