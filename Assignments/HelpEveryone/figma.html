@@ -2,76 +2,89 @@
 <html lang="en">
   
   <head>
+    <title>Landing page</title>
     <meta charset="UTF-8">
     <meta name="view port" content="width=device-width, initial-scale=1.0">
-    <title>Landing page</title>
     <link rel="stylesheet" href="./figma.css">
     <link rel="icon" href="images/happyemoji.png" type="images/png">
   </head>
 
   <body>
-      <header class="navbar">
+      <header class="navigations">
         <div class="logo">
           <img src="./images/happyemoji.png" alt="Help Everyone Logo">
-          <a href="#">Helpeveryoe</a>
+          <p id="logo-text">Helpeveryone</p>
         </div>
 
-      <nav class="nav-links">
-        <a href="#">Services</a>
-        <a href="#">Donate</a>
-        <a href="#">Who we are</a>
-        <a href="#">Join us</a>
-        <a href="#">Contact us</a>
-        <a href="#">Blog</a>
-      </nav>
-
-      <div class="auth">
-        <a href="#" class="sign-up">Sign up</a>
-      </div>
+        <nav class="nav-links">
+          <a href="#firstpage">Services</a>
+          <a href="#secondpage">Donate</a>
+          <a href="#thirdpage">Who we are</a>
+          <a href="#fourthpage">Join us</a>
+          <a href="#fifthpage">Contact us</a>
+          <a href="#sixthpage">Blog</a>
+        </nav>
       </header>
 
       <main class="hero">
-        <div class="hero content">
-          <h1>
-            We <span class="highlight">Better Life</span>
-          </h1>
-          <p>If you have someone who likes to help others, get started</p>
-          <div class="cta-button">
-            <button class="get-started">Get Started</button>
-            <button class="watch-story">
-              Watch our story
-              <span class="play-icon" aria-label="play">>></span>
-            </button>
-          </div>
-        </div>
-        <div class="hero-image">
-          <img src="./images/Group 16.png" alt="Two people holding flags">
-        </div>
-      </main>
+        <section>
+          <div class="firstpage">
+            <div class="firsttext">
+              <h1>
+                We <span class="highlight-in-blue">Help </span>Everyone Here For A
+                <span class="highlight-in-blue">Better Life</span>
+              </h1>
+            </div>
 
-      <section class="about">
-        <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi veniam temporibus tenetur tempora quam sed incidunt distinctio. Vitae unde suscipit alias repudiandae impedit! Quasi et tenetur repellat quam porro enim.</p>
-      </section>
+            <div>
+              <p>If you are someone who likes to help others, get started</p>
+            </div>
 
-      <section class="service-container">
-        <div class="section-section">
-          <div class="services-content">
-            <h1 class="services-title">Our Services</h1>
-            <p class="services-subtitle">Some of the services include the following:</p>
-
-            <div class="service-item">
-              <h2>1-Guardianship of children without families</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi recusandae cupiditate maxime! Tempore dolorum natus necessitatibus eius saepe aliquam porro, repellat vitae, nesciunt velit quidem ipsum minus debitis ut! Asperiores.</p>
-              <a href="#" class="about-btn">About this</a>
+            <div class="thirdtext">
+              <button class="get-started">Get Started</button>
+              <button class="watch-story">
+                Watch our story
+                <img src="./images/Frame 7.png" alt="play button">
+              </button>
             </div>
           </div>
 
-          <div class="services-illustration">
-            <img src="images/Group 7.png" alt="Guardiansip Illustration">
+          <div class="hero-image">
+            <img src="./images/Group 16.png" alt="Two people holding flags">
           </div>
-        </div>
       </section>
+     
+
+        <section class="about-us">
+          <div class="firstimagetext">
+            <img src="./images/SUN & CLOUDS.png" alt="Sun and clouds">
+            <h2>About Us</h2>
+          </div>
+          <div c>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi veniam temporibus tenetur tempora quam sed incidunt distinctio. Vitae unde suscipit alias repudiandae impedit! Quasi et tenetur repellat quam porro enim.</p>
+          </div>
+        </section>
+
+        <section class="service-container">
+          <div class="section-section">
+            <div class="services-content">
+              <h1 class="services-title">Our Services</h1>
+              <p class="services-subtitle">Some of the services include the following:</p>
+
+              <div class="service-item">
+                <h2>1-Guardianship of children without families</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi recusandae cupiditate maxime! Tempore dolorum natus necessitatibus eius saepe aliquam porro, repellat vitae, nesciunt velit quidem ipsum minus debitis ut! Asperiores.</p>
+                <a href="#" class="about-btn">About this</a>
+              </div>
+            </div>
+
+            <div class="services-illustration">
+              <img src="images/Group 7.png" alt="Guardiansip Illustration">
+            </div>
+          </div>
+        </section>
+      </main>
+
       <footer>
 
       </footer>
