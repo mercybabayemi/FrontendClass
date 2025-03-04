@@ -1,0 +1,52 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  text-align: center;
+}
+
+/* Container for centralizing content */
+.container {
+  width: 80%;
+  margin: 80px auto;
+}
+
+/* Styling for text aligned to the left */
+.left-aligned {
+  text-align: left;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 15px 0;
+  background-color: #e7f3f7;
+}
+
+/* Styling for table layout with borders, padding, and spacing */
+.table-layout {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.table-layout th, .table-layout td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.table-layout th {
+  background-color: #f4f4f4;
+}
+
+.table-layout td {
+  background-color: #fff;
+}
+
+/* Example of margin and padding applied to a div */
+.margin-padding-example {
+  margin: 20px 0; /* Adds space outside the div */
+  padding: 15px;  /* Adds space inside the div */
+  background-color: #f9f9f9;
+  border: 2px solid #ccc;
+}

@@ -1,0 +1,127 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* box-sizing: content-box; */
+}
+
+body{
+  background-color: #f2f2f2;
+}
+
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: space-around;*/
+  align-items: center;
+  padding: 0px 50px;
+  height: 50px;
+}
+
+.navLinks ul{
+  list-style: none;
+  width: 500px;
+  /* gap: 100px; */
+  display: flex;
+  /* flex-direction: column-reverse; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLinks ul a{
+  text-decoration: none;
+  color: black;
+}
+
+.textHereSession{
+  width: 444px;
+  margin-left: 80px;
+}
+
+.apparelLogo{
+  display: flex;
+  width: 115px;
+  padding: 50px 0px;
+}
+
+.weAreComing{
+  height: 217px;
+}
+
+.weAreComing span{
+  font-size: 64px;
+  top: 12;
+  font-weight: bolder;
+  line-height: 71px;
+  letter-spacing: 17px;
+}
+
+.weAreComing p{
+  color: rgb(234, 168, 178);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.paragraph{
+  height: 95px;
+  top: 487px;
+  left: 166px;
+  color:rgb(234, 168, 178);
+  padding: 30px 0px;
+}
+.email-form {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+}
+
+.second{
+  display : flex;
+  width : 445px;
+  height : 56px;
+  top : 582px;
+  left : 165px;
+}
+
+.email-input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 25px 0 0 25px;
+  width: 250px;
+  font-size: 16px;
+  position: absolute;
+}
+
+.email-button {
+  background: linear-gradient(45deg, #ff9a9e, #fbc2eb);
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 50%;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+  margin-left: 235px;
+}
+
+.buttonDiv{
+  width: 450px;
+  height: 250px;
+}
+
+.email-button svg {
+  width: 16px;
+  height: 16px;
+}
+
+.heroPage{
+  display: flex;
+  justify-content: space-between;
+}
