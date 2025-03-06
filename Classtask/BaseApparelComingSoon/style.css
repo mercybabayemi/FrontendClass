@@ -2,11 +2,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
   /* box-sizing: content-box; */
 }
 
 body{
-  background-color: #f2f2f2;
+  background-color:#FFFFFF;
 }
 
 .navBar{
@@ -16,6 +17,7 @@ body{
   align-items: center;
   padding: 0px 50px;
   height: 50px;
+  
 }
 
 .navLinks ul{
@@ -52,30 +54,29 @@ body{
 .weAreComing span{
   font-size: 64px;
   top: 12;
-  font-weight: bolder;
   line-height: 71px;
   letter-spacing: 17px;
 }
 
 .weAreComing p{
-  color: rgb(234, 168, 178);
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #CE9898;
 }
 
 .paragraph{
   height: 95px;
   top: 487px;
   left: 166px;
-  color:rgb(234, 168, 178);
+  color:#CE9898;
   padding: 30px 0px;
 }
+
 .email-form {
   display: flex;
   align-items: center;
   background-color: #fff;
   border-radius: 25px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 5px;
+  box-shadow: #EE8B8B;
+  padding: 10px;
 }
 
 .second{
@@ -84,10 +85,12 @@ body{
   height : 56px;
   top : 582px;
   left : 165px;
+  border: none;
 }
 
 .email-input {
-  border: none;
+  border: 1px solid #CE9898 ;
+  border-radius: 30%;
   outline: none;
   padding: 10px;
   border-radius: 25px 0 0 25px;
@@ -99,21 +102,25 @@ body{
 .email-button {
   background: linear-gradient(45deg, #ff9a9e, #fbc2eb);
   border: none;
-  color: white;
-  padding: 12px 20px;
+  color: #FFFFFF;
+  padding: 17px 20px;
   cursor: pointer;
   border-radius: 50%;
+  align-items: center;
   /* display: flex; */
   /* justify-content: center; */
   /* align-items: center; */
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   position: relative;
-  margin-left: 235px;
+  margin-left: 200px;
+  bottom: 20px;
 }
 
 .buttonDiv{
-  width: 450px;
-  height: 250px;
+  /* width: 450px;
+  height: 250px; */
+  margin-top: 10px;
+  padding: 5px 5px;
 }
 
 .email-button svg {

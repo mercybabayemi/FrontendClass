@@ -1,0 +1,68 @@
+*body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.firstPage{
+  background-image: linear-gradient(to top left, #DBF0EB, #FFFFFF);
+}
+
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+  width: 1180px;
+  height: 40px;
+  top: 40px;
+  left: 130px;
+}
+
+.logoText{
+  color:#54BD95;
+}
+
+.navLinks ul{
+  list-style: none;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navLinks ul a{
+  text-decoration: none;
+  color: gray;
+}
+
+#firstList{
+  color: black;
+}
+
+.headerEnds{
+  display: flex;
+  width: 143px;
+  height: 40px;
+  top: 40px;
+  left: 1167px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerEnds a{
+  text-decoration: none;
+  color: gray;
+}
+
+.signUp{
+  background-color: #54BD95;
+  color: white;
+  border: 0px;
+  width: 80px;
+  height: 40px;
+  top: 40px;
+  left: 1230px;
+  border-radius: 5px;
+}
