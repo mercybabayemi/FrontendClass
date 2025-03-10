@@ -17,10 +17,12 @@
   height: 40px;
   top: 40px;
   left: 130px;
+  border-radius: 10px;
 }
 
 .logoText{
   color:#54BD95;
+  font-size: 25px;
 }
 
 .navLinks ul{
@@ -30,6 +32,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  
 }
 
 .navLinks ul a{
@@ -49,6 +52,7 @@
   left: 1167px;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .headerEnds a{
@@ -60,9 +64,26 @@
   background-color: #54BD95;
   color: white;
   border: 0px;
-  width: 80px;
-  height: 40px;
+  width: 70px;
+  height: 30px;
   top: 40px;
   left: 1230px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
+
+.ghostPage{
+  display: flex;
+  width: 1301px;
+  height: 642px;
+  top: 134px;
+  left: 130px;
+  margin: 60px;
+}
+
+.headerText{
+  font-size: 80px;
+  font-weight: 700px;
+  line-height: 90px;
+  letter-spacing: 0%;
+}
+
