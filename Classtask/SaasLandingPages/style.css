@@ -6,6 +6,7 @@
 
 .firstPage{
   background-image: linear-gradient(to top left, #DBF0EB, #FFFFFF);
+  padding-left: 150px;
 }
 
 .navBar{
@@ -214,7 +215,7 @@
 .secondPage{
   background-color: #F9F8FE;
   display: flex;
-  padding-left: 170px;
+  padding-left: 150px;
 }
 
 .secondPageFirst{
@@ -541,4 +542,435 @@
   top: 2063px;
   left: 146px;
   border-radius: 20px;
+}
+
+.fourthPage{
+  width: 1249px;
+  height: 543px;
+  top: 2761px;
+  left: 130px;
+}
+
+.fourthPage img{
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+.fifthPage{
+  /* width: 2180px; */
+  height: 1100px;
+  top: 3434px;
+  left: 141px;
+  background-image: linear-gradient(to bottom right, #FFFEFE, #D7F0E6);
+  margin-top: 88px;
+  padding-left: 150px;
+}
+
+.fifthPageText1{
+  width: 500px;
+  height: 146px;
+  top: 3434px;
+  left: 485px;
+  padding-top: 90px;
+  margin: auto;
+}
+
+.fifthPageText1 h1{
+  font-weight: 700px;
+  font-size: 50px;
+  line-height: 73px;
+  letter-spacing: 0%;
+  color: #191A15;
+  text-align: center;
+}
+
+.fifthPageText2{
+  width: 519px;
+  height: 22px;
+  top: 3620px;
+  left: 472px;
+
+  margin: auto;
+}
+
+.fifthPageText2 p{
+  font-weight: 700px;
+  font-size: 18px;
+  line-height: 100px;
+  letter-spacing: 0%;
+  color: #A6A6A6;
+  text-align: center;
+}
+
+.fifthPageButton{
+  width: 340px;
+  height: 70px;
+  top: 3682px;
+  left: 561px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #FFFFFF;
+  margin-top: 70px;
+}
+
+#billMonthly{
+  width: 120px;
+  height: 30px;
+  top: 3702px;
+  left: 599px;
+  font-size: 18px;
+  font-weight: 500px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #191A15;
+  border: 0px;
+  background-color: #FFFFFF;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+#billYearly{
+  width: 160px;
+  height: 56px;
+  top: 3689px;
+  left: 734px;
+  border-radius: 10px;
+  background-color: #54BD95;
+  font-weight: 500px;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  border: 0px;
+  margin-left: 50px;
+}
+
+.fifth{
+  display: flex;
+  padding-top: 40px;
+}
+
+.fifthFirst{
+  width: 374px;
+  height: 580px;
+  top: 3841px;
+  left: 141px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+}
+
+.fifthFirst h1{
+  width: 65px;
+  height: 36px;
+  top: 3881px;
+  left: 296px;
+  font-size: 30px;
+  font-weight: 600px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-left: 150px;
+  color: #191A15;
+}
+
+.fifthFirst p{
+  width: 210px;
+  height: 54px;
+  top: 3927px;
+  left: 223px;
+  font-size: 18px;
+  font-weight: 500px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-left: 90px;
+  color: #A6A6A6;
+}
+
+.fifthFirst h2 sup{
+  width: 12px;
+  height: 30px;
+  top: 3994px;
+  left: 303px;
+  font-size: 18px;
+  font-weight: 500px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #A6A6A6;
+}
+
+.fifthFirst h2 {
+  width: 34px;
+  height: 30px;
+  top: 4020px;
+  left: 319px;
+  font-size: 50px;
+  font-weight: 600px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-left: 170px;
+  color: #191A15;
+}
+
+.listButton1{
+  width: 334px;
+  height: 310px;
+  top: 4080px;
+  left: 161px;
+  border-radius: 10px;
+  background-color: #F9FAFB;
+}
+
+.listButton1 ul{
+  width: 260px;
+  height: 238px;
+  top: 4106px;
+  left: 198px;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.listButton1 ul li{
+  width: 350px;
+  height: 30px;
+  top: 4106px;
+  left: 198px;
+  padding: 5px 20px;
+  list-style-image: url(img/Subtract.png);
+}
+
+.listButton1 button{
+  width: 260px;
+  height: 64px;
+  top: 4371px;
+  left: 198px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  color: #54BD95;
+  margin-left: 50px;
+  border: 0px;
+  font-size: 18px;
+  font-weight: 600px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.fifthSecond{
+  width: 374px;
+  height: 580px;
+  top: 3841px;
+  left: 141px;
+  border-radius: 20px;
+  background-color: #54BD95;
+  margin-left: 30px;
+}
+
+.fifthSecond h1{
+  width: 65px;
+  height: 36px;
+  top: 3881px;
+  left: 296px;
+  font-size: 30px;
+  font-weight: 600px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-left: 150px;
+  color: #FFFFFF;
+}
+
+.fifthSecond p{
+  width: 210px;
+  height: 54px;
+  top: 3927px;
+  left: 223px;
+  font-size: 18px;
+  font-weight: 500px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-left: 90px;
+  color: #FFFFFF;
+}
+
+.fifthSecond h2 sup{
+  width: 12px;
+  height: 30px;
+  top: 3994px;
+  left: 303px;
+  font-size: 18px;
+  font-weight: 500px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.fifthSecond h2 {
+  width: 34px;
+  height: 30px;
+  top: 4020px;
+  left: 319px;
+  font-size: 50px;
+  font-weight: 600px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-left: 170px;
+  color: #FFFFFF;
+}
+
+.listButton2{
+  width: 334px;
+  height: 320px;
+  top: 4080px;
+  left: 161px;
+  border-radius: 10px;
+  background-color: #F9FAFB;
+  margin-left: 20px;
+}
+
+.listButton2 ul{
+  width: 260px;
+  height: 238px;
+  top: 4106px;
+  left: 198px;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.listButton2 ul li{
+  width: 350px;
+  height: 30px;
+  top: 4106px;
+  left: 198px;
+  padding: 5px 20px;
+  list-style-image: url(img/Subtract.png);
+}
+
+.listButton2 button{
+  width: 260px;
+  height: 64px;
+  top: 4371px;
+  left: 198px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  background-color: #54BD95;
+  margin-left: 50px;
+  border: 0px;
+  font-size: 18px;
+  font-weight: 600px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.fifthThird{
+  width: 374px;
+  height: 580px;
+  top: 3841px;
+  left: 141px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.fifthThird h1{
+  width: 65px;
+  height: 36px;
+  top: 3881px;
+  left: 296px;
+  font-size: 30px;
+  font-weight: 600px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-left: 150px;
+  color: #191A15;
+}
+
+.fifthThird p{
+  width: 210px;
+  height: 54px;
+  top: 3927px;
+  left: 223px;
+  font-size: 18px;
+  font-weight: 500px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-left: 90px;
+  color: #A6A6A6;
+}
+
+.fifthThird h2 sup{
+  width: 12px;
+  height: 30px;
+  top: 3994px;
+  left: 303px;
+  font-size: 18px;
+  font-weight: 500px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #A6A6A6;
+}
+
+.fifthThird h2 {
+  width: 34px;
+  height: 30px;
+  top: 4020px;
+  left: 319px;
+  font-size: 50px;
+  font-weight: 600px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-left: 170px;
+  color: #191A15;
+}
+
+.listButton3{
+  width: 334px;
+  height: 310px;
+  top: 4080px;
+  left: 161px;
+  border-radius: 10px;
+  background-color: #F9FAFB;
+}
+
+.listButton3 ul{
+  width: 260px;
+  height: 238px;
+  top: 4106px;
+  left: 198px;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.listButton3 ul li{
+  width: 350px;
+  height: 30px;
+  top: 4106px;
+  left: 198px;
+  padding: 5px 20px;
+  list-style-image: url(img/Subtract.png);
+}
+
+.listButton3 button{
+  width: 260px;
+  height: 64px;
+  top: 4371px;
+  left: 198px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  color: #54BD95;
+  margin-left: 50px;
+  border: 0px;
+  font-size: 18px;
+  font-weight: 600px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
 }
